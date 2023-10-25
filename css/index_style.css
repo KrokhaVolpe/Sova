@@ -373,7 +373,7 @@ body {
 }
 
 .main_section.blog_posts .post__item a:hover {
-  border: 1px solid red;
+  border: 1px solid #000;
   transform: scale(1.2);
 }
 
