@@ -1,0 +1,89 @@
+.main_section.contact_block {
+	width: 100%;
+	height: auto;
+	object-fit: cover;
+	position: relative;
+	padding: 0;
+}
+
+.main_section.contact_block  img {
+	width: 100%;
+	height: auto;
+	object-fit: cover;
+	padding: 0;
+	display: block;
+	border-radius: 5%;
+}
+
+.main_section.contact_block:after {
+	width: 100%;
+	height: 100%;
+	content: "";
+	display: block;
+	background: #6b7477;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 5;
+	opacity: 0.2;
+}
+
+.contact_block .contact_block_info {
+	width: 750px;
+	height: 1000px;
+	background: rgba(0,0,0,0.9);
+	box-shadow: 0 3px 3px 3px rgba(0,0,0,0.2);
+	border-radius: 5%;
+	position: absolute;
+	top: 10%;
+	left: 10%;
+}
+
+.contact_block .contact_block_info h3 {
+	color: white;
+	font-size: 46px;
+	font-weight: 500;
+	font-family: 'Roboto' ,sans-serif;
+	display: block;
+	width: 100%;
+	text-align: center;
+	padding: 140px 20px 120px;
+}
+.contact_block .contact_block_info > a {
+	color: white;
+	font-size: 32px;
+	font-weight: 300;
+	font-family: 'Roboto' ,sans-serif;
+	display: flex;
+	width: 55%;
+	text-align: center;
+	padding: 20px 20px 5px;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0 auto;
+
+}
+
+.contact_block .contact_block_info > a > i {
+	color: #f7f4e9;
+	font-size: 24px;
+}
+
+.contact_block .contact_block_info > a > img {
+	opacity: 0.5;
+	width: 300px;
+	height: auto;
+}
+.contact_block .contact_block_info .soc_links {
+	margin: 150px auto 0;
+	display: flex;
+	width: 60%;
+	justify-content: space-between;
+
+}
+
+.contact_block .contact_block_info .soc_links i {
+	font-size: 50px;
+	color: #f7f4e9;
+
+}
